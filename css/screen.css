@@ -1,0 +1,95 @@
+
+
+@media screen and (max-width: 1366px) {
+
+.started_sec ul.startedBlock li{ padding:0 1% 10px;}
+}
+
+@media screen and (max-width: 1280px) {
+
+
+.started_sec ul.startedBlock li{ width:14%; height:150px;}
+.iso_sec{  top:35%;}
+}
+
+@media screen and (min-width:980px) and (max-width: 1024px) {
+
+.iso_sec{  top:20%;}	
+}
+
+@media screen and (min-width:320px) and (max-width: 979px) {
+.started_sec{ position:static; background-color:#000; padding:10px 0;}	
+.started_sec ul.startedBlock li{ width:30%; margin-bottom:10px; height:120px;}
+.iso_sec{ top:25%;}
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:639px) {
+	header h1{ left:1px; top:1px;}
+	.logo{ width:30%;}
+	
+	footer{ margin-bottom:40px; padding:10px 1%;}
+	.thxfooter{ margin-bottom:10px !important;}
+	
+	.requirementL_sec{ width:98%; min-height:100px;}
+	.thx{ display:block !important; background-image:none; background-color:#f16c1d; width:100%; min-height:100px;}
+	.thx .formSub_sec{ padding:10px 0; text-align:center;}
+	.formR_sec{ display:none;}
+	.call-form{ display:block; position:fixed; bottom:-10px; z-index:999999; float:left; padding:15px 0 0 0; width:100%; background:#06558e url(../images/footer-fixed-bg.jpg) 0 0 repeat-x; height:40px; text-align:center; }
+
+.call{ width:50%;  background:url(../images/sep.png) right top no-repeat; float:left; }
+
+.form-pop {float: right;padding-top: 2px; text-align: center;width:100%;}
+
+.institute_details, .logo2, .iso_sec{ display:none;}
+
+.started_sec h2{ font-size:12px; padding:0 10px 5px 10px;}
+.started_sec ul.startedBlock{ border:0;}
+.started_sec ul.startedBlock li{ width:45%; margin-right:1%;  border:1px solid #333; height:90px;}
+.extraBold{ font-size:20px;}
+.second strong.orange{ font-size:26px;}
+.copyRights_sec p{ text-align:center; width:100%;}
+.requirementL_sec{ padding:10px 0 0 2%;}
+
+.desk{ display:none;}
+.mob-slide{ display:block;}
+.started_sec ul.startedBlock li.thirdli{ height:66px; min-height:20px;}
+.started_sec ul.startedBlock li.forthli{ height:66px; min-height:20px;}
+
+.font12{ font-size:13px;}
+.sixth .orange{ font-size:14px;}
+
+.first .orange {
+    font-size: 13px;
+    line-height: 14px;
+}
+
+
+.first{
+    padding-top: 18px;
+}
+
+.second {
+    padding-top: 12px;
+}
+
+.third {
+    padding-top: 12px;
+}
+
+.fourth {
+    padding-top: 18px;
+}
+
+.fifth {
+    padding-top:6px;
+
+}
+.sixth {
+    padding-top:28px;
+}
+
+
+	}

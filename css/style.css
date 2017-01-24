@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding:0; margin:0; font-family:Arial, Helvetica, sans-serif;}
+h1,h2,h3,h4,h5,h5,h6,p,div,span,table,ul,li,form,labelclass{padding:0; margin:0; font-weight:normal;}
+ul, li{list-style:none;}
+
+@font-face {
+    font-family: 'helvcondensedregular';
+    src: url('../fonts/hecn.eot');
+    src: url('../fonts/hecn.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hecn.woff') format('woff'),
+         url('../fonts/hecn.ttf') format('truetype'),
+         url('../fonts/hecn.svg#helvcondensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('../fonts/raleway-extralight.eot');
+    src: url('../fonts/raleway-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-extralight.woff2') format('woff2'),
+         url('../fonts/raleway-extralight.woff') format('woff'),
+         url('../fonts/raleway-extralight.ttf') format('truetype'),
+         url('../fonts/raleway-extralight.svg#ralewayextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway-bold.ttf') format('truetype'),
+         url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/raleway-heavy.eot');
+    src: url('../fonts/raleway-heavy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-heavy.woff2') format('woff2'),
+         url('../fonts/raleway-heavy.woff') format('woff'),
+         url('../fonts/raleway-heavy.ttf') format('truetype'),
+         url('../fonts/raleway-heavy.svg#ralewayheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+section,header,nav,article,footer{display:block;}
+.block{display:block;}
+.relative{position:relative;}
+.wrapper{width:1004px; margin:0 auto;}
+
+
+header{width:100%; float:left; position:relative; font-size:0; overflow:hidden;}
+header h1{width:256px; position:absolute; z-index:11; left:10px; top:16px;}
+header h1 span{display:block; padding-top:8px;}
+header ul.desktop li img{width:100%;}
+
+.institute_details{width:236px; position:absolute; right:10px; top:10px;}
+.iso_sec{width:366px; position:absolute; right:10px; top:330px;}
+.started_sec{width:100%; float:left; position:absolute; bottom:0;}
+.started_sec h2{font-family:'ralewayregular'; color:#fff; font-size:15px; text-align:center; padding-bottom:15px;}
+.started_sec ul.startedBlock{width:100%; float:left; border-top:1px dashed #fff; text-align:center;}
+.started_sec ul.startedBlock li{font-family:'ralewaybold'; color:#fff; font-size:18px; border-right:1px dashed #fff; padding:0 2% 10px; text-align:center; text-transform:uppercase; min-height:90px; display:inline-block; vertical-align:top;}
+
+.started_sec ul.startedBlock li:last-child{ border-right:0;}
+.started_sec ul.startedBlock li.last{border-right:none;}
+.first,.second{padding-top:18px;}
+.third{padding-top:25px;}
+.fourth{padding-top:45px;}
+.fifth{padding-top:13px;}
+.sixth{padding-top:28px;}
+.orange{color:#f86925;}	
+.first .orange{font-size:22px; line-height:20px;}
+.second strong.orange{font-family:'helvcondensedregular'; font-size:48px; line-height:35px;}
+.extraBold{font-family:'ralewayheavy'; font-weight:normal; font-size:22px;}
+.f_size16{font-size:16px; line-height:16px;}
+
+.body_sec{width:100%; float:left;}
+.requirementL_sec{width:28%; min-height:180px; float:left; background:url(../images/requirement_bg.jpg) repeat-x left top; padding:20px 0 0 2%;}
+.requirementL_sec h2{font-family:'ralewayregular'; color:#105dad; font-size:18px; text-transform:uppercase; margin-bottom:10px;}
+.requirementL_sec li{font-family:'ralewayregular'; color:#5e5e5e; font-size:13px; background:url(../images/arrow.gif) no-repeat left 4px; padding-left:15px; margin-bottom:10px;}
+.formR_sec{width:70%; min-height:200px; float:left; background:url(../images/form_arrow.jpg) no-repeat left top #f16c1d;}
+.formSub_sec{width:90%; float:left; padding:20px 5% 0 5%;}
+.formSub_sec h2{font-family:'ralewayregular'; color:#fff; font-size:27px; text-transform:uppercase; margin-bottom:10px; padding-left:5%;}
+
+footer{width:98%; float:left; padding:15px 1%; background:#fff;}
+.privacy_policy{width:100%; float:left; font-size:11px; color:#686868; text-align:justify;}
+.copyRights_sec{width:100%; float:left; font-size:11px; color:#4f4219; font-family:'helvcondensedregular'; text-transform:uppercase; margin-top:10px;}
+.copyRights_sec a{color:#000; text-decoration:none;}
+.left{float:left;}
+.right{float:right;}
+
+.formMain{ float:left; width:90%; margin:0 5%;  }
+.labelclass{ display:none;}
+
+.block2, .block3, .block4, .block5, .block6, .block7, .block8{ float:left; width:31%; margin:10px 2% 0 0;}
+
+input[type="text"], select{ width:100%; padding-left:5px; height:30px; float:left; border:1px solid #000; border-radius:3px; text-align:left; font-family: 'ralewayregular'; font-size:15px; color:#000; box-sizing:border-box;}
+
+select{ color: #999; padding-left:0;}
+
+ textarea{ float:left; width:100%; height:30px; padding-left:5px; padding-top:5px; font-family: 'ralewayregular'; font-size:15px; color:#000; border:1px solid #000; border-radius:3px; box-sizing:border-box; }
+
+.submitclass{ float:left; width:31%; text-align:center; margin-bottom:10px;}
+.submitclass input[type="submit"]{ background: rgb(5,82,198); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(5,82,198,1) 0%, rgba(7,134,242,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,82,198,1)), color-stop(100%,rgba(7,134,242,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(5,82,198,1) 0%,rgba(7,134,242,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(5,82,198,1) 0%,rgba(7,134,242,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(5,82,198,1) 0%,rgba(7,134,242,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(5,82,198,1) 0%,rgba(7,134,242,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0552c6', endColorstr='#0786f2',GradientType=0 ); /* IE6-9 */ border:0; color:#fff; padding:5px 20px; text-transform:uppercase; font-size:15px; margin-top:10px; cursor:pointer; border:1px solid #000; border-radius:3px; width:100%;}
+.call-form{ display:none;}
+.fancybox-skin{ padding:5px !important;}
+.mob-slide{ display:none;}
+
+.thx p{ padding-left:5%; color:#fff;}
